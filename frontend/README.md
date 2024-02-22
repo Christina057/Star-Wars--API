@@ -6,6 +6,7 @@ Before you start, make sure you have Node.js and npm installed on your system. Y
 Open your terminal or command prompt and run the following command to create a new React app:
 ```bash
 npx create-react-app my-app
+'''
 ## Change the directory
 cd my-app
 ## Run the App
