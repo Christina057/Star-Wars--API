@@ -23,7 +23,9 @@ npm run build
 This command will create a build folder with the optimized production build of your app.
 ## Deploy the App
 To deploy the app, you can use various hosting services like Netlify, Vercel, or GitHub Pages. Here's a general guide on how to deploy to GitHub Pages:
+
 Create a GitHub repository for your project.
+
 Run the following command to add a remote repository to your local project:
 ```
 git remote add origin <your-github-repo-url>
