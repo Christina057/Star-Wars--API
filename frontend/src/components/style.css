@@ -1,0 +1,93 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.planet-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.planet-card:hover {
+    transform: scale(1.02);
+}
+
+.planet-card h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.planet-card p {
+    color: #555;
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+.resident-list {
+    list-style: none;
+    padding: 0;
+}
+
+.resident-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.resident-item p {
+    color: #444;
+    font-size: 14px;
+    margin: 4px 0;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    .planet-card {
+        padding: 10px;
+    }
+
+    button {
+        padding: 8px 16px;
+    }
+}
